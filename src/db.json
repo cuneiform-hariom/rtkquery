@@ -1,0 +1,24 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Hariom Karn",
+      "email": "hariom.karn@thecuneiform.com"
+    },
+    {
+      "id": 675.5231381787761,
+      "name": "Suraj",
+      "email": "suraj@thecuneiform.com"
+    },
+    {
+      "id": 0.5654424394231496,
+      "name": "Narayan",
+      "email": "narayan@gmail.com"
+    },
+    {
+      "id": 0.423712692592608,
+      "name": "Vikas",
+      "email": "vikas@gmail.com"
+    }
+  ]
+}

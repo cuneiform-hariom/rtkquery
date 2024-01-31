@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +16,53 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 50px;
+}
+
+.grid .card {
+  border: 1px solid grey;
+  padding: 10px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.card .del{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 100px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  display: none;
+  place-content: center;
+  line-height: 1em;
+  top: -8px;
+  right: -8px;
+  cursor: pointer;
+}
+
+.card:hover .del{
+  display: grid;
+}
+
+.card .s-id{
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border-radius: 100px;
+  background-color: rgb(47, 0, 255);
+  color: white;
+  display: grid;
+  place-content: center;
+  line-height: 1em;
+  top: -8px;
+  left: -8px;
 }
